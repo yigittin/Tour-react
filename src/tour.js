@@ -26,7 +26,12 @@ const Article=()=>{
             })            
         }))},[])              
             
-    
+    const removeItem=(id)=>{
+        setTours((oldTours)=>{
+            let newTours=oldTours.filter((tour)=>tour.id!==id);
+            return newTours;
+        })
+    }
      if(isLoading){
          return(
        <div>
@@ -50,8 +55,10 @@ const Article=()=>{
                 {!show&& <section>
                     <p key={id} >{text}<button className='read'
                     onClick={()=>setShow(!show)}>Show Less</button>   </p>                
-                </section> }   
-                <button >delete</button>               
+                </section> }
+                <div className='btnWrap'>
+                    <button className='btn' onClick={()=>removeItem(id)}>Not Interested</button>               
+                </div>   
             </article>
         </>);
         }))  
