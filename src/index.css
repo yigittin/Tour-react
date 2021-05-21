@@ -24,6 +24,8 @@ body {
   background: none;
   border: none;
   color: rgb(17, 202, 202);
+  position: initial;
+  margin-top: auto;
 }
 
 .price {
@@ -49,4 +51,22 @@ body {
   width: 100%;
   height: auto;
   border-radius: 1rem;
+}
+
+.info {
+  width: 80%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0;
+}
+
+.less {
+  background: none;
+  border: none;
+  color: rgb(17, 202, 202);
+  position: relative;
+  left: auto;
+  right: auto;
 }
