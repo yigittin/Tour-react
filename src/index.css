@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 7px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tourdiv {
+  background-color: aliceblue;
+}
+.tourart {
+  background-color: white;
+  margin-bottom: 50px;
+  border-radius: 1rem;
+}
+
+.read {
+  background: none;
+  border: none;
+  color: rgb(17, 202, 202);
+}
+
+.price {
+  position: relative;
+  left: 540px;
+  bottom: 25px;
+  background: rgb(164, 220, 241);
+  max-width: min-content;
+  border-radius: 1rem;
+  color: rgb(20, 112, 233);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-decoration: peru solid underline;
+  text-decoration: peru solid underline;
+  text-underline-position: under;
+  -webkit-text-underline-position: under;
+}
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
