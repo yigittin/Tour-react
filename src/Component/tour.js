@@ -1,5 +1,5 @@
 import React, { Component,useState } from "react";
-import './tour.css';
+import '../index.css';
 import '../index.css'
 
 export default class Tour extends Component {
